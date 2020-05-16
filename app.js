@@ -43,7 +43,7 @@ function firstNPrimes(n) {
 //creating GET request
 app.get('/primes', function (req, res) {
     //outputting palindrome words 
-    res.json({ "words": firstNPrimes(20) })
+    res.json({ "first 20 primes numbers": firstNPrimes(20) })
 });
 
 
